@@ -15,7 +15,7 @@ export const routes: Routes = [
     //     loadChildren:() => loadRemoteModule({
     //         type: 'module',
     //         remoteEntry: 'http://localhost:4203/remoteEntry.js',
-    //         exposedModule: 'ClientsHomeComponent',
+    //         exposedModule: './ClientsHomeComponent',
     //     }).then(m => m.ClientsHomeComponent)
     // },
 ];
