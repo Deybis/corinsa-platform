@@ -12,10 +12,10 @@ export const routes: Routes = [
     },
     // {
     //     path: 'clients',
-    //     loadChildren:() => loadRemoteModule({
+    //     loadComponent:() => loadRemoteModule({
     //         type: 'module',
     //         remoteEntry: 'http://localhost:4203/remoteEntry.js',
     //         exposedModule: './ClientsHomeComponent',
     //     }).then(m => m.ClientsHomeComponent)
-    // },
+    // }
 ];
